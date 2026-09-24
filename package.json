@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-deps-dev",
-  "version": "0.1.0",
-  "description": "deps.dev — Google's package metadata + dependency graph API",
+  "version": "0.1.1",
+  "description": "deps.dev MCP — Google's package metadata + dependency graph API.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-deps-dev": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "deps-dev"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-deps-dev"
+    "url": "git+https://github.com/pipeworx-io/mcp-deps-dev.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-bd5a88ca1c9d4da94b2c82dacdeae2073b31cf969b79c24576360c5a9e44c126",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
   }
 }
