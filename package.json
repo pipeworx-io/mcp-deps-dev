@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-deps-dev",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "deps.dev MCP — Google's package metadata + dependency graph API.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-bd5a88ca1c9d4da94b2c82dacdeae2073b31cf969b79c24576360c5a9e44c126",
-    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
+    "sourceHash": "v1-7d09718709ed735dc20121084aa8b3f7183294af760e66afe6d9232077a7f857",
+    "sourceCommit": "56d3c46c09bb3078ffdbdbca992a93f406bcd382"
   }
 }
