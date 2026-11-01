@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-deps-dev",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "deps.dev MCP — Google's package metadata + dependency graph API.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "deps-dev",
     "gatewaySlug": "deps-dev",
-    "sourceHash": "v1-33c6a87ceb1645f66aaac0a7f72bb878b6abc849c48f2c37a826a6d05a168dd4",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-8cd6bafbd325a9f88c981f5b63f077ed400e86c442384ac4e964a4acab77634a",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
